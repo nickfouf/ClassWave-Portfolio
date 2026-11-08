@@ -1,0 +1,2 @@
+# Android emulator default for a backend running on the same computer.
+SERVER_IP=10.0.2.2

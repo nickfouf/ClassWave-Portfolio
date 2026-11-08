@@ -1,0 +1,22 @@
+{
+  "name": "classwave-dummy-participants",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Keeps four muted, camera-off dummy participants in a ClassWave lesson.",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node src/index.js --check"
+  },
+  "dependencies": {
+    "mediasoup-client": "3.21.0",
+    "puppeteer-core": "25.3.0",
+    "socket.io-client": "4.8.3"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.6"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
